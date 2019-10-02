@@ -13,12 +13,11 @@ public class Product {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Product{");
-        sb.append("id=").append(id);
-        sb.append(", name='").append(name).append('\'');
-        sb.append(", price=").append(price);
-        sb.append('}');
-        return sb.toString();
+        return new StringBuilder("Product{")
+                .append("id=").append(id)
+                .append(", name='").append(name).append('\'')
+                .append(", price=").append(price)
+                .append('}').toString();
     }
 
     public Long getId() {

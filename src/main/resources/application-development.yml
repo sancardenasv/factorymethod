@@ -1,0 +1,16 @@
+logging:
+  config: src/main/resources/logback-spring.xml
+  level:
+    org.springframework.security: INFO
+server:
+  port: 8090
+application:
+  database:
+    mysql:
+      user: 'root'
+      password: 'example'
+      connection-string: 'jdbc:mysql://localhost:3306/factoryDB?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC'
+    mongodb:
+      user: 'new_user'
+      password: 'some_password'
+      connection-string: 'jdbc:mongo://localhost:27017/factoryDB'
