@@ -11,7 +11,7 @@
     <groupId>com.electroeing</groupId>
     <artifactId>factorymethod</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>factorymethod</name>
+    <name>factoryMethod</name>
     <description>Factory Method design pattern example application</description>
 
     <properties>

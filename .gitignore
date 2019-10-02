@@ -33,3 +33,4 @@ build/
 mongo_factoryDB.xml
 mvnw*
 .mvn/*
+LOG_FILE_IS_UNDEFINED
